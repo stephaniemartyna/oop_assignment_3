@@ -1,0 +1,23 @@
+Program Specifications
+
+
+1. Design a complete set of JUnit tests to test an implementation of the Binary Search Tree
+based on the BSTreeADT.java and Iterator.java interfaces provided by your instructor.
+
+2. Write a reference-based implementation (BSTree.java, BSTreeNode.java) using the 
+BSTreeADT.java and Iterator.java interfaces provided by your instructor.
+Deliverables
+
+
+Your group’s submission should include a zipped folder named as the assignment number and your group number (e.g., A3Group3.zip). The zipped folder should contain the following items:
+
+• The project should have completed javadoc using the “-private” option when generated. Place the output in the doc directory of the project.
+
+
+• A folder containing the complete Eclipse project directory.
+
+
+o At the root of the project directory, include a projectStatus.txt file describing the completeness of the assignment (as a percentage) and a list of known deficiencies and/or missing functionalities.
+
+
+• The completed Marking Criteria document containing your group’s self evaluation
