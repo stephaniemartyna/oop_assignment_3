@@ -1,15 +1,21 @@
 package treeImplementation;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BSTreeNode<E> {
 
     private E data;
     private BSTreeNode<E> left;
     private BSTreeNode<E> right;
+    private List<LineNumber> lineNumbers;
 
     public BSTreeNode(E data) {
         this.data = data;
         this.left = null;
         this.right = null;
+        // line numbers
+        this.lineNumbers = new ArrayList<>();
     }
 
     public E getData() {
@@ -34,5 +40,14 @@ public class BSTreeNode<E> {
 
     public void setRight(BSTreeNode<E> right) {
         this.right = right;
+    }
+
+    public void addLineNumber(String fileName, int lineNumber) {
+        LineNumber lineNumberObj = new LineNumber(fileName, lineNumber);
+        lineNumbers.add(lineNumberObj);
+    }
+
+    public List<LineNumber> getLineNumbers() {
+        return lineNumbers;
     }
 }
